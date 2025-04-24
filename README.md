@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/PedroCrqs/BentoGridSolution)
+- Solution URL: (https://www.frontendmentor.io/solutions/bento-grid-solution-with-css-gride-NJtc6o1JJd)
 - Live Site URL: (https://pedrocrqs.github.io/BentoGridSolution/)
 
 ## My process
