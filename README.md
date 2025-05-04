@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Frontend%20Mentor%20-%20Bento%20grid%20-%20Desktop.png)
+![](./src/solution/Frontend%20Mentor%20-%20Bento%20grid%20-%20Desktop.png)
 
 ### Links
 
