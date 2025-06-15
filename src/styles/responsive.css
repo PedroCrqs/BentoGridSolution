@@ -1,110 +1,121 @@
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 768px) {
   body {
+    width: 100%;
     margin: 0;
-    position: inherit;
-    font-weight: 400;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
     display: grid;
-    row-gap: 5px;
-    column-gap: 5px;
-    text-align: center;
-    justify-content: center;
+    gap: 40px;
     grid-template-areas:
       "one two two three"
       "four five six three"
       "four eight seven seven";
-    grid-template-columns: 280px 280px 280px 25%;
-    grid-template-rows: 290px 280px 275px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .one {
-    width: 325px;
-    height: 200px;
-    padding: 10px;
+    height: 135%;
+    margin-bottom: 50px;
+    align-items: center;
   }
 
   .one h2 {
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: -20%;
+    margin-left: 60px;
   }
   .one img {
-    margin: 20px;
-  }
-  .two {
-    width: 344px;
-    height: 275px;
-    margin-top: 20px;
-  }
-
-  .three {
-    width: 325px;
-    height: 530px;
-    text-align: center;
-    align-items: center;
-
-    padding: 10px;
-  }
-
-  .three img {
-    width: 300px;
-  }
-
-  .four {
-    width: 325px;
-    height: 340px;
-    align-items: flex-start;
-    justify-content: left;
-    align-content: left;
-    padding: 10px;
-    margin-top: 0;
-  }
-  .four img {
-    margin-left: 15px;
-  }
-
-  .five {
-    width: 325px;
-    height: 200px;
-    text-align: left;
-    align-items: left;
-    padding: 10px;
-  }
-  .six {
-    width: 325px;
-    height: 250px;
-    padding: 10px;
-  }
-
-  .seven {
-    width: 325px;
-    height: 400px;
-    text-align: center;
-    padding-left: 10px;
-    flex-direction: column;
-  }
-  .seven img {
-    margin-bottom: 35px;
-  }
-
-  .seven h2 {
-    margin-left: 65px;
-    margin-right: 65px;
-  }
-
-  .eight {
-    width: 305px;
-    height: 225px;
-    padding: 20px;
+    margin: 0;
+    margin-bottom: 80px;
   }
 
   h1 {
-    font-size: 55px;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 30px;
   }
 
-  h2 {
-    font-size: 30px;
-    margin: 20px;
+  .two {
+    height: 100%;
+    margin-bottom: 20%;
+  }
+
+  .two p {
+    margin: 0;
+    margin-top: -20%;
+  }
+
+  .two img {
+    margin-top: -10%;
+  }
+
+  .three {
+    height: 90%;
+    text-align: left;
+  }
+
+  .three h2,
+  p {
+    margin-left: 40px;
+  }
+
+  .three img {
+    width: 100%;
+    height: 100%;
+    margin-left: 80px;
+  }
+
+  .four {
+    margin-top: 45%;
+    height: 77%;
+  }
+
+  .five,
+  .six {
+    height: 80%;
+  }
+
+  .six img {
+    height: 100%;
+  }
+
+  .seven {
+    margin-top: -12%;
+    height: 125%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .seven img {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-top: 0;
+  }
+
+  .seven h2 {
+    width: 90%;
+    text-align: left;
+    margin-left: -15%;
+  }
+
+  .eight {
+    margin-top: -25%;
+    height: 125%;
+  }
+
+  article {
+    width: 100% !important;
+    height: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
